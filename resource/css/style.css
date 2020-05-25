@@ -1,0 +1,220 @@
+* {
+    font-family: monospace, sans-serif, serif;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    overflow: visible;
+    max-height: 100%;
+    max-width: 100%;
+
+    
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap; 
+    background-color: black;
+    color: white;
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+ body{
+        font-family: serif, monospace, sans-serif;
+        font-size: 16px;
+        background-color: hotpink;
+        color: navy;
+        overflow: visible;
+        text-overflow: ellipsis;
+        white-space: wrap;
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+
+
+@media only screen and (min-width: 480px) and (min-width: 1600px)
+{
+    
+   main{
+    display: flex;
+    flex-flow: column wrap; 
+    background-color: black;
+    color: white;
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+ body{
+        font-family: serif, monospace, sans-serif;
+        font-size: 16px;
+        background-color: hotpink;
+        color: navy;
+        overflow: visible;
+        text-overflow: ellipsis;
+        white-space: wrap;
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+    
+    
+
+h1 {
+    color: black;
+    text-align: center;
+}
+    
+    nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #010e80;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	display: table-cell
+}
+    
+    li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 60px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+    
+    .media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #h1--media{
+        font-size: 35px;
+        color: green;
+        font-family: cursive;
+        border: 5px dotted yellow;
+    }
+    
+    #h1--history{
+        
+        font-size: 35px;
+        color: navy;
+        font-family: cursive;
+        border: 5px double yellow;
+        
+    }
+    
+    #h2--history{
+        font-size: 25px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+    }
+    
+    
+    #h3--geography{
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+    }
+    
+    #h3--administration{
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+    }
+    
+    #h3--economy{
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+        
+    }
+    
+    #h3--demographics{
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+    }
+    
+    #h3--attraction{
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+    }
+    
+    
+    #history--attraction{
+        
+        font-size: 15px;
+        color: hotpink;
+        font-family: cursive;
+        border: 5px dashed white;
+        text-align: center;
+        
+    }
+    
+    
+    
+    
+    mark{
+        color: hotpink;
+    }
+    
+    
+    #pics{
+    
+        flex-flow: row wrap;
+    }
+    
+    
+    
+    .figpics{
+        display: flex
+    }
+    
+    
+    
+    
+    
+    #title{
+        font-size: 46px;
+    }
+    
+    
+    
+    
+}
